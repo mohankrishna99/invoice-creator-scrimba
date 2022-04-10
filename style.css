@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+body{
+    font-family: inter;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    color: #2B283A;
+    background-color: #F5F5F5;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 800,bolder;
+    letter-spacing: -0.02em;
+    padding-top: 59px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header p {
+    margin-top: 9px;
+    padding-bottom: 66px;
+}
+
+#btns-cont{
+    margin: 0 auto 20px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    padding:0 10px;
+}
+
+.button{
+    background-color: white;
+    border: 1px solid #D5D4D8;
+    border-radius: 7px;
+    height: 45px;
+    width: 143px;
+    cursor: pointer;
+}
+
+.button:active{
+    border: 2px solid #4A4E74;
+}
+
+.task{
+    width: 300px;
+    color: #918E9B;
+}
+
+.total{
+    color: #918E9B;
+    text-align: end;
+}
+
+.total1{
+    text-align: end;
+    color: #4A4E74;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.task1{
+    color: #4A4E74;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text{
+    margin: 0 auto;
+    width: 500px;
+}
+
+hr{
+    margin-top: 25px;
+    width: 500px;
+}
+
+.total-amt{
+    color: #918E9B;
+    text-align: end;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.notes{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4A4E74;
+}
+
+.btn{
+    background: #3770ED;
+    color: white;
+    width: 473px;
+    border-radius: 7px;
+    line-height: 24px;
+    height: 44px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:active{
+    border: 2px solid white;
+}
+
+.remove{
+    background-color: white;
+    border: none;
+    color: #918E9B;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Invoice creator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Invoice creator</h1>
+            <p>Thanks for choosing GoodCorp, LLC!</p>
+        </header>
+        <div id="btns-cont">
+            <button class="button" id="wash-car">Wash Car: $10</button>
+            <button class="button" id="mow-lawn">Mow Lawn: $20</button>
+            <button class="button" id="pull-weeds">Pull Weeds: $30</button>
+        </div>
+        <table  class="text">
+            <tr>
+                <td class="task">TASK</td>
+                <td class="total">TOTAL</td>
+            </tr>
+        </table>
+        <table class="text" id="text">
+
+        </table>
+        <hr>
+        <table class="text">
+            <tr>
+                <td class="task">NOTES</td>
+                <td class="total">TOTAL AMOUNT</td>
+            </tr>
+            <tr>
+                <td class="notes" id="notes"></td>
+                <td class="total-amt">$<span id="tot-amt">0</span></td>
+            </tr>
+        </table>
+        <button class="btn" id="reset"><img src="images/Icon.png"> Send Invoice</button>
+        <script src="index.js"></script>
+    </body>
+</html>
